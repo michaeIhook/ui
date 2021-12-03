@@ -130,7 +130,7 @@ function library:Main()
     local ContentContainer = Instance.new("Frame")
     ContentContainer.Name = "ContentContainer"
     ContentContainer.Parent = Panel
-    ContentContainer.BackgroundColor3 = Color3.new(0.0941176, 0.0941176, 0.0941176)
+    ContentContainer.BackgroundColor3 = Color3.new(127, 0, 255)
     ContentContainer.BorderSizePixel = 0
     ContentContainer.Position = UDim2.new(0, 130, 0, 0)
     ContentContainer.Size = UDim2.new(0, 217, 0, 200)
@@ -189,7 +189,7 @@ function library:Main()
         Content.Name = "Content"
         Content.Parent = folder1
         Content.Active = true
-        Content.BackgroundColor3 = Color3.new(1, 0, 0.0156863)
+        Content.BackgroundColor3 = Color3.new(127, 0, 255)
         Content.BackgroundTransparency = 1
         Content.BorderSizePixel = 0
         Content.Size = UDim2.new(0, 211, 0, 194)
@@ -216,7 +216,7 @@ function library:Main()
         TabButton.Size = UDim2.new(0, 120, 0, 18)
         TabButton.Font = Enum.Font.Gotham
         TabButton.Text = name
-        TabButton.TextColor3 = Color3.new(0.898039, 0.898039, 0.898039)
+        TabButton.TextColor3 = Color3.new(255, 255, 255)
         TabButton.TextSize = 16
         TabButton.TextXAlignment = Enum.TextXAlignment.Left
         TabButton.TextStrokeColor3 = Color3.fromRGB(71, 177, 230)
@@ -315,7 +315,7 @@ function library:Main()
                     local TextBoxText = Instance.new("TextBox")
                     TextBoxText.Name = "TextBoxText"
                     TextBoxText.Parent = TextBox
-                    TextBoxText.BackgroundColor3 = Color3.new(0.0352941, 0.0352941, 0.0352941)
+                    TextBoxText.BackgroundColor3 = Color3.new(127, 0, 255)
                     TextBoxText.BackgroundTransparency = 1
                     TextBoxText.BorderSizePixel = 0
                     TextBoxText.Position = UDim2.new(0.49702251, 0, 0, 0)
@@ -323,7 +323,7 @@ function library:Main()
                     TextBoxText.ZIndex = 500
                     TextBoxText.ClearTextOnFocus = true
                     TextBoxText.Font = Enum.Font.Gotham
-                    TextBoxText.PlaceholderColor3 = Color3.new(0.862745, 0.862745, 0.862745)
+                    TextBoxText.PlaceholderColor3 = Color3.new(127, 0, 255)
                     TextBoxText.PlaceholderText = "TextBox"
                     TextBoxText.Text = ""
                     TextBoxText.TextColor3 = Color3.new(1, 1, 1)
